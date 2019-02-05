@@ -1,0 +1,973 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	/* Header Start */
+	.custom_brand {
+		width: 50%;
+	}
+	.custom_brand img {
+		width: 100%;
+	}
+	.custom_nav li a {
+		padding: 3px 10px!important;
+		font-size: 14px;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner {
+		background-image: url(../images/banner_bg_md.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.banner_texts {
+		margin-top: 120px;
+		margin-bottom: 70px;
+	}
+	.banner_texts h1 {
+		font-size: 22px;
+	}
+	.banner_texts h3 {
+		font-size: 14px;
+	}
+	.banner h6 {
+		font-size: 6px;
+	}
+	/* Banner End */
+	/* About Section Start */
+	.about {
+		margin-bottom: 50px;
+	}
+	.common_texts {
+		margin-top: 30px;
+	}
+	.common_texts h1 {
+		font-size: 16px;
+	}
+	.common_texts hr {
+		width: 100px;
+		margin: 15px auto;
+	}
+	.about_texts {
+		margin-top: 10px;
+	}
+	.about_texts h1 {
+		font-size: 18px;
+	}
+	.about_texts p {
+		font-size: 12px;
+	}
+	.about_texts hr {
+		width: 130px;
+	}
+	.about_image {
+		margin-top: 10px;
+	}
+	/* About Section End */
+	/* Service Section Start */
+	.service_content {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.service_content img {
+		margin-top: 10px;
+		width: 45%;
+	}
+	.service_content p {
+		font-size: 14px;
+	}
+	/* Service Section End */
+	/* Offering Start */
+	.custom_card {
+		margin-bottom: 30px;
+	}
+	.card-header {
+		font-size: 14px;
+	}
+	.card-header i {
+		font-size: 16px;
+	}
+	.custom_title {
+		font-size: 24px;
+	}
+	.custom_ctext {
+		width: 100%;
+		font-size: 16px;
+		min-height: 30px;
+	}
+	.custom_cfooter {
+		font-size: 14px;
+	}
+	.plus_icon {
+		height: 40px;
+		margin-bottom: 30px;
+	}
+	.plus_icon i {
+		font-size: 20px;
+		margin-top: 11px;
+	}
+	/* Offering End */
+	/* Gallery Start */
+	.top_margin {
+		margin-top: 10px;
+	}
+	.gallery_content img {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.custom_btn {
+		width: 40%;
+		margin-bottom: 30px;
+	}
+	/* Gallery End */
+	/* Profiles Section Start */
+	.profile {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.twitter_content p {
+		line-height: 2;
+		font-size: 12px;
+	}
+	.twitter_content h6 {
+		width: 100%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 2;
+	}
+	.profile_contents {
+		text-align: center;
+	}
+	.profile_contents img {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.profile_contents h1 {
+		font-size: 24px;
+	}
+	.profile_contents h6 {
+		font-size: 16px;
+	}
+	.profile_contents hr {
+		margin: 0;
+	}
+	.profile_contents p {
+		font-size: 16px;
+		margin: 0;
+	}
+	.profile_contents ul li a {
+		font-size: 20px;
+		margin: 15px auto;
+	}
+	.profile_contents h3 {
+		display: none;
+	}
+	/* Profiles Section End */
+	/* Count Section Start */
+	.count_wrapper {
+		position: relative;
+	}
+	.count_wrapper h1 {
+		font-size: 25px;
+	}
+	.count_wrapper img {
+		width: 50%;
+		position: absolute;
+		bottom: -10px;
+		left: 25%;
+		margin: 0 auto;
+	}
+	.count_content h2 {
+		font-size: 16px;
+		margin-bottom: 30px;
+	}
+	/* Count Section End */
+	/* Event Section Start */
+	.event {
+		margin-bottom: 0px;
+	}
+	.timeline_wrap {
+		margin-top: 10px;
+	}
+	.date_stamp {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		position: relative;
+	}
+	.date_stamp p {
+		text-align: center;
+		font-size: 30px;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		margin: 0 auto;
+	}
+	.month_stamp {
+		font-size: 14px;
+	}
+	.event_title {
+		font-size: 16px;
+	}
+	.timeline_text p {
+		font-size: 12px;
+	}
+	.news_content p {
+		font-size: 10px;
+	}
+	.news_content hr {
+		border: 1px dashed;
+		margin: 5px;
+	}
+	.news_content i {
+		font-size: 16px;
+	}
+	.news_content h6 {
+		font-size: 14px;
+	}
+	.news_content p {
+		font-size: 14px;
+	}
+	/* Event Section End */
+	/* Contact Section Start */
+	.contact {
+		background-image: url(../images/bottom_bg_xs.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		padding-top: 150px;
+	}
+	.contact_content {
+		margin-top: 15px;
+		margin-bottom: 0;
+	}
+	.contact_content h1 {
+		font-size: 20px;
+		margin-top: 0;
+	}
+	.contact_content hr {
+		width: 50%;
+		border: 2px dashed;
+		margin-bottom: 10px;
+	}
+	.contact_content p {
+		font-size: 14px;
+	}
+	/* Contact Section End */
+	/* Footer Start */
+	footer p {
+		font-size: 12px;
+		margin: 15px auto;
+		text-align: center;
+	}
+	/* Footer End */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* Header Start */
+	.custom_brand {
+		width: 50%;
+	}
+	.custom_brand img {
+		width: 100%;
+	}
+	.custom_nav li a {
+		padding: 3px 10px!important;
+		font-size: 14px;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner {
+		background-image: url(../images/banner_bg_md.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.banner_texts {
+		margin-top: 120px;
+		margin-bottom: 100px;
+	}
+	.banner_texts h1 {
+		font-size: 22px;
+	}
+	.banner_texts h3 {
+		font-size: 14px;
+	}
+	.banner h6 {
+		font-size: 6px;
+	}
+	/* Banner End */
+	/* About Section Start */
+	.about {
+		margin-bottom: 50px;
+	}
+	.common_texts {
+		margin-top: 30px;
+	}
+	.common_texts h1 {
+		font-size: 24px;
+	}
+	.common_texts hr {
+		width: 100px;
+		margin: 15px auto;
+	}
+	.about_texts {
+		margin-top: 10px;
+	}
+	.about_texts h1 {
+		font-size: 18px;
+	}
+	.about_texts p {
+		font-size: 12px;
+	}
+	.about_texts hr {
+		width: 130px;
+	}
+	.about_image {
+		margin-top: 10px;
+	}
+	/* About Section End */
+	/* Service Section Start */
+	.service_content {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.service_content img {
+		margin-top: 10px;
+		width: 45%;
+	}
+	.service_content p {
+		font-size: 14px;
+	}
+	/* Service Section End */
+	/* Offering Start */
+	.custom_card {
+		width: 65%;
+		margin: 30px auto;
+	}
+	.card-header {
+		font-size: 16px;
+	}
+	.card-header i {
+		font-size: 16px;
+	}
+	.custom_title {
+		font-size: 24px;
+	}
+	.custom_ctext {
+		font-size: 16px;
+		min-height: 60px;
+	}
+	.custom_cfooter {
+		font-size: 16px;
+	}
+	.plus_icon {
+		height: 40px;
+		margin-bottom: 50px;
+	}
+	.plus_icon i {
+		font-size: 20px;
+		margin-top: 11px;
+	}
+	/* Offering End */
+	/* Gallery Start */
+	.top_margin {
+		margin-top: 40px;
+	}
+	.gallery_content img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.custom_btn {
+		width: 30%;
+		margin-bottom: 40px;
+	}
+	/* Gallery End */
+	/* Profiles Section Start */
+	.profile {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.twitter_content p {
+		line-height: 2.5;
+		font-size: 14px;
+	}
+	.twitter_content h6 {
+		width: 90%;
+		margin: 0 auto;
+		font-size: 14px;
+		line-height: 2;
+	}
+	.profile_contents img {
+		margin-bottom: 20px;
+	}
+	.profile_contents h3 {
+		margin-bottom: 20px;
+	}
+	/* Profiles Section End */
+	/* Count Section Start */
+	.count_wrapper {
+		position: relative;
+	}
+	.count_wrapper h1 {
+		font-size: 30px;
+	}
+	.count_wrapper img {
+		width: 40%;
+		position: absolute;
+		bottom: -5px;
+		right: 30px;
+		margin: 0 auto;
+	}
+	.count_content h2 {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	/* Count Section End */
+	/* Event Section Start */
+	.event {
+		margin-bottom: 20px;
+	}
+	.timeline_wrap {
+		margin-top: 20px;
+	}
+	.date_stamp {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		position: relative;
+	}
+	.date_stamp p {
+		text-align: center;
+		font-size: 30px;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		margin: 0 auto;
+	}
+	.month_stamp {
+		font-size: 14px;
+	}
+	.event_title {
+		font-size: 20px;
+	}
+	.timeline_text p {
+		font-size: 14px;
+	}
+	.news_content hr {
+		border: 1px dashed;
+		margin: 5px;
+	}
+	.news_content i {
+		font-size: 16px;
+	}
+	.news_content h6 {
+		font-size: 14px;
+	}
+	.news_content p {
+		font-size: 14px;
+	}
+	/* Event Section End */
+	/* Contact Section Start */
+	.contact {
+		background-image: url(../images/bottom_bg_xs.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		padding-top: 150px;
+	}
+	.contact_content {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.contact_content h1 {
+		font-size: 20px;
+		margin-top: 100px;
+	}
+	.sm-mg {
+		margin-top: 10px!important;
+	}
+	.contact_content hr {
+		width: 50%;
+		border: 2px dashed;
+		margin-bottom: 10px;
+	}
+	.contact_content p {
+		font-size: 12px;
+	}
+	/* Contact Section End */
+	/* Footer Start */
+	footer p {
+		font-size: 14px;
+		margin: 20px auto;
+		text-align: center;
+	}
+	/* Footer End */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Header Start */
+	.custom_brand img {
+		width: 90%;
+	}
+	.custom_nav li a {
+		padding: 3px 10px!important;
+		font-size: 14px;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner {
+		background-image: url(../images/banner_bg_md.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.banner_texts {
+		margin-top: 130px;
+		margin-bottom: 130px;
+	}
+	.banner_texts h1 {
+		font-size: 40px;
+	}
+	.banner_texts h3 {
+		font-size: 20px;
+	}
+	.banner h6 {
+		font-size: 14px;
+	}
+	/* Banner End */
+	/* About Section Start */
+	.about {
+		margin-bottom: 50px;
+	}
+	.common_texts {
+		margin-top: 50px;
+	}
+	.common_texts h1 {
+		font-size: 22px;
+	}
+	.common_texts hr {
+		width: 160px;
+		margin: 15px auto;
+	}
+	.about_texts {
+		margin-top: 30px;
+	}
+	.about_texts h1 {
+		font-size: 20px;
+	}
+	.about_texts p {
+		font-size: 12px;
+	}
+	.about_texts hr {
+		width: 130px;
+	}
+	.about_image {
+		margin-top: 30px;
+	}
+	/* About Section End */
+	/* Service Section Start */
+	.service_content {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.service_content img {
+		width: 45%;
+	}
+	.service_content p {
+		font-size: 16px;
+	}
+	/* Service Section End */
+	/* Offering Start */
+	.common_texts img {
+		width: 80%;
+	}
+	.custom_card {
+		margin-bottom: 50px;
+	}
+	.card-header {
+		font-size: 9px;
+	}
+	.card-header i {
+		font-size: 12px;
+	}
+	.custom_title {
+		margin-top: 5px;
+		font-size: 14px;
+	}
+	.custom_ctext {
+		font-size: 10px;
+		min-height: 60px;
+	}
+	.custom_cfooter {
+		font-size: 9px;
+	}
+	.plus_icon {
+		height: 40px;
+		margin-bottom: 50px;
+	}
+	.plus_icon i {
+		font-size: 20px;
+		margin-top: 11px;
+	}
+	/* Offering End */
+	/* Gallery Start */
+	.top_margin {
+		margin-top: 50px;
+	}
+	.gallery_content img {
+		width: 100%;
+	}
+	.custom_btn {
+		margin-bottom: 50px;
+	}
+	/* Gallery End */
+	/* Profiles Section Start */
+	.profile {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.twitter_content h6 {
+		width: 70%;
+		line-height: 2.2;
+	}
+	.profile_contents img {
+		width: 120%;
+	}
+	.profile_contents h1 {
+		font-size: 20px;
+	}
+	.profile_contents hr {
+		margin: 5px auto;
+	}
+	.profile_contents h6 {
+		font-size: 14px;
+	}
+	.profile_contents p {
+		font-size: 12px;
+		line-height: 1.2;
+	}
+	.profile_contents ul li a {
+		font-size: 18px;
+	}
+	.profile_contents h3 {
+		font-size: 14px;
+	}
+	/* Profiles Section End */
+	/* Count Section Start */
+	.count_wrapper {
+		position: relative;
+	}
+	.count_wrapper h1 {
+		font-size: 45px;
+	}
+	.count_wrapper img {
+		width: 80%;
+		position: absolute;
+		bottom: -5px;
+		left: 15px;
+		margin: 0 auto;
+	}
+	.count_content h2 {
+		font-size: 18px;
+		margin-bottom: 50px;
+	}
+	/* Count Section End */
+	/* Event Section Start */
+	.event {
+		margin-bottom: 50px;
+	}
+	.timeline_wrap {
+		margin-top: 20px;
+	}
+	.date_stamp {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		position: relative;
+	}
+	.date_stamp p {
+		text-align: center;
+		font-size: 30px;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		margin: 0 auto;
+	}
+	.month_stamp {
+		font-size: 14px;
+	}
+	.reg_stamp {
+		font-size: 14px;
+	}
+	.event_title {
+		font-size: 16px;
+	}
+	.timeline_text p {
+		font-size: 10px;
+	}
+	.news_content hr {
+		border: 1px dashed;
+		margin: 5px;
+	}
+	.news_content i {
+		font-size: 14px;
+	}
+	.news_content h6 {
+		font-size: 10px;
+	}
+	.news_content p {
+		font-size: 10px;
+	}
+	/* Event Section End */
+	/* Contact Section Start */
+	.contact {
+		background-image: url(../images/bottom_bg_md.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+	.contact_content {
+		margin-top: 200px;
+		margin-bottom: 50px;
+	}
+	.contact_content img {
+		margin-bottom: 30px;
+	}
+	.contact_content h1 {
+		font-size: 20px;
+		margin-top: 240px;
+	}
+	.contact_content hr {
+		width: 60%;
+	}
+	.contact_content p {
+		font-size: 12px;
+	}
+	.insta_img img {
+		width: 100%;
+	}
+	/* Contact Section End */
+	/* Footer Start */
+	.custom_flist {
+		margin: 20px auto;
+	}
+	.custom_flist a {
+		font-size: 12px;
+		padding-right: 10px;
+	}
+	.custom_flist li:last-child a {
+		border: none;
+	}
+	footer p {
+		font-size: 12px;
+		margin: 20px auto;
+	}
+	/* Footer End */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* Header Start */
+	.custom_brand img {
+		width: 90%;
+	}
+	.custom_nav li a {
+		padding: 3px 16px!important;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner {
+		background-image: url(../images/banner_bg_lg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.banner_texts {
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+	.banner_texts h1 {
+		font-size: 45px;
+	}
+	.banner_texts h3 {
+		font-size: 25px;
+	}
+	.banner h6 {
+		font-size: 16px;
+	}
+	/* Banner End */
+	/* About Section Start */
+	.about {
+		margin-bottom: 80px;
+	}
+	.common_texts {
+		margin-top: 80px;
+	}
+	.common_texts h1 {
+		font-size: 25px;
+	}
+	.common_texts hr {
+		width: 200px;
+		margin: 20px auto;
+	}
+	.about_texts {
+		margin-top: 50px;
+	}
+	.about_texts h1 {
+		font-size: 22px;
+	}
+	.about_texts hr {
+		width: 150px;
+	}
+	.about_image {
+		margin-top: 50px;
+	}
+	/* About Section End */
+	/* Service Section Start */
+	.service_content {
+		margin-top: 50px;
+		margin-bottom: 80px;
+	}
+	.service_content img {
+		width: 40%;
+	}
+	.service_content p {
+		font-size: 18px;
+	}
+	/* Service Section End */
+	/* Offering Start */
+	.common_texts img {
+		width: 80%;
+	}
+	.custom_card {
+		margin-bottom: 50px;
+	}
+	.card-header i {
+		font-size: 15px;
+	}
+	.thumb_wrap {
+		position: relative;
+	}
+	.custom_title {
+		font-size: 20px;
+	}
+	.custom_ctext {
+		font-size: 15px;
+		min-height: 100px;
+	}
+	.custom_cfooter {
+		font-size: 14px;
+	}
+	.plus_icon {
+		margin-bottom: 80px;
+	}
+	/* Offering End */
+	/* Gallery Start */
+	.top_margin {
+		margin-top: 80px;
+	}
+	.gallery_content img {
+		width: 100%;
+	}
+	.custom_btn {
+		margin-bottom: 80px;
+	}
+	/* Gallery End */
+	/* Profiles Section Start */
+	.profile {
+		margin-top: 80px;
+		margin-bottom: 80px;
+	}
+	/* Profiles Section End */
+	/* Count Section Start */
+	.count_wrapper {
+		position: relative;
+	}
+	.count_wrapper img {
+		position: absolute;
+		bottom: -10px;
+		left: 30px;
+		margin: 0 auto;
+	}
+	/* Count Section End */
+	/* Event Section Start */
+	.event {
+		margin-bottom: 80px;
+	}
+	.date_stamp {
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		position: relative;
+	}
+	.date_stamp p {
+		font-size: 40px;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		margin: 0 auto;
+	}
+	.event_title {
+		font-size: 18px;
+	}
+	.timeline_text p {
+		font-size: 12px;
+	}
+	.news_content h6 {
+		font-size: 12px;
+	}
+	.news_content p {
+		font-size: 12px;
+	}
+	/* Event Section End */
+	/* Contact Section Start */
+	.contact_content {
+		margin-top: 250px;
+		margin-bottom: 80px;
+	}
+	.contact_content h1 {
+		font-size: 22px;
+	}
+	.contact_content hr {
+		width: 60%;
+	}
+	.contact_content p {
+		font-size: 12px;
+	}
+	/* Contact Section End */
+	/* Footer Start */
+	.custom_flist {
+		margin: 25px auto;
+	}
+	.custom_flist a {
+		font-size: 14px;
+	}
+	.custom_flist li:last-child a {
+		border: none;
+	}
+	footer p {
+		font-size: 14px;
+		margin: 25px auto;
+	}
+	/* Footer End */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1499.98px){
+
+
+}
+
+/* Extra large devices (large desktops, 1500px and up) */
+@media (min-width: 1500px){
+	/* Header Start */
+	.custom_nav li a {
+		font-size: 18px;
+	}
+	/* Header End */
+	/* Banner Start */
+	.banner_texts {
+		margin-top: 360px;
+		margin-bottom: 360px;
+	}
+	/* Banner End */
+
+}
